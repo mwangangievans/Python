@@ -69,6 +69,77 @@ MyVariablename = "mwangangi"
 
 my_variable_name = "mwangangi"
 
+# Python Variables - Assign Multiple Values
+x,y,z = 'ken1',"onesmus","mwangangi"
+
+# output ken1
+print(x) 
+# output onesmus
+print(y)
+# output mwangangi
+print(z)
+
+# One Value to Multiple Variables
+x = y = z = "orange"
+
+# output orange
+print(x)
+
+# output orange
+print(y)
+
+# output orange
+print(z)
+
+# Unpack a Collection === If you have a collection of values in a list, tuple etc. Python allows you to extract the values into variables. This is called unpacking.
+
+fruits = ["mangoes" , "apples" , "bananas"]
+
+print(fruits)
+# unpack the collection...
+
+m,a,b = fruits
+# output  mangoes
+print(m)
+
+# output  apples
+print(a)
+
+# output bananas
+print(b)
+
+print(m,a,b)
+
+# outputing multiple variables we seperate by a comma
+
+x = "Python"
+y = "is"
+z = "awesome"
+print(x, y, z)
+
+
+# we can also use the + operator to output multiple variables:
+
+x = "Python "
+y = "is "
+z = "awesome"
+print(x + y + z)
+
+
+# Python - Global Variables
+
+name = "mwangangi"
+
+def calName():
+    print("my name is" + name)
+
+calName()    
+
+
+
+
+
+
 
 
 
