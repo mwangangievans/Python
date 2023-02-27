@@ -50,3 +50,11 @@ print((l))
 tup = tuple(("one","two","three","four"))
 print(type(tup))
 
+# range data type
+
+print(range(0,6,2))
+
+# dict
+
+di = dict(name = "Mwangani" , age  = 25)
+print(di)
