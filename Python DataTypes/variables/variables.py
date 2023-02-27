@@ -34,3 +34,41 @@ A = "ken"
 
 #A will not overwrite a
 print(A) 
+
+# Variable Names
+
+# rules of variable names in python
+
+# -its case sensitive.... A and a mean different things
+# -variable name should not start with a number
+# -variable name should only contain Alpha numerics character and an underscore(a-z , 0-9 and _)
+# -Variable name should start with a letter or an underscore
+# -Variable name should not be any of the python keywords
+
+
+# Examples....
+myvar = "John"
+my_var = "John"
+myVar = "John"
+MYVAR = "John"
+myvar2 = "John"
+
+# Multi Words Variable Names
+
+# How to make multiwords readable
+
+# Camel Case ==== Each word, except the first, starts with a capital letter:
+
+myVariableName = "mwangangi"
+
+# Pascal Case === Each word starts with a capital letter:
+
+MyVariablename = "mwangangi"
+
+# Snake Case === Each word is separated by an underscore character:
+
+my_variable_name = "mwangangi"
+
+
+
+
