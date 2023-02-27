@@ -112,7 +112,22 @@ x = 3+5j
 y = 5j
 z = -5j
 
-print((x))
+# print((x))
+# print(type(y))
+# print(type(z))
+
+# Type Conversion
+x = 1 
+y = 5.9
+z = 7j
+
 print(type(y))
-print(type(z))
+int_value = int(y)
+print(type(int_value))
+ 
+
+#  Random Number
+
+import random
+print(random.randrange(1,10,8))
 
