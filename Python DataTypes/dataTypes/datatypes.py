@@ -51,10 +51,68 @@ tup = tuple(("one","two","three","four"))
 print(type(tup))
 
 # range data type
-
 print(range(0,6,2))
 
 # dict
 
 di = dict(name = "Mwangani" , age  = 25)
 print(di)
+
+# Python Numbers
+
+# int
+# float
+# complex
+
+# variables of numeric value are created when they assigned values
+
+x = 10
+y = 10.67
+z = 3j
+
+print(x)
+print(y)
+print(z)
+
+x = 1
+y = 35656222554887711
+z = -3255522
+
+print(type(x))
+print(type(y))
+print(type(z))
+
+
+# Float
+# Float, or "floating point number" is a number, positive or negative, containing one or more decimals.
+
+x = 1.10
+y = 1.0
+z = -35.59
+
+print(type(x))
+print(type(y))
+print(type(z))
+
+
+
+x = 35e3
+y = 12E4
+z = -87.7e100
+
+print((x))
+print((y))
+print((z))
+
+
+# Complex
+# Complex numbers are written with a "j" as the imaginary part:
+
+x = 3+5j
+y = 5j
+z = -5j
+
+print((x))
+print(type(y))
+print(type(z))
+
