@@ -25,4 +25,28 @@ print('The frozen set is:', fSet)
 print('The empty frozen set is:', frozenset())
 
 # frozensets are immutable
-fSet.add('v')
+# fSet.add('v')
+
+# Setting the Specific Data Type
+x = str(11)
+# output 11
+print(x)
+y = float(20.8)
+# output 20.8
+print(y)
+print(type(y))
+
+# complex type
+
+comp = complex(1j)
+print(comp)
+print(type(comp))
+
+l = ["evans","ken","john"]
+l.insert(0,"sossy")
+print((l))
+
+# tuple datatype"
+tup = tuple(("one","two","three","four"))
+print(type(tup))
+
