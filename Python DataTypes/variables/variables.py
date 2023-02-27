@@ -131,7 +131,7 @@ print(x + y + z)
 name = "mwangangi"
 
 def calName():
-    print("my name is" + name)
+    print("my name is" +name)
 
 calName()    
 
