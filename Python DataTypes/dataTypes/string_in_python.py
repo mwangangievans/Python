@@ -42,6 +42,20 @@ if "free" in txt:
 txt = "The best things in life are free!"
 print("expensive" not in txt)
 
+# Python - Slicing Strings
 
+# You can return a range of characters by using the slice syntax.
+
+# Specify the start index and the end index, separated by a colon, to return a part of the string.
+
+_muthomi = "muthomi  likes c#"
+
+print(_muthomi[2:5])
+
+# Slice From the Start
+print(_muthomi[:5])
+
+# Slice To the End
+print(_muthomi[3:])
 
         
