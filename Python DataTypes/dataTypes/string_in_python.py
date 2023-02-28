@@ -125,3 +125,8 @@ _quantity = "2"
 _sentence = "i bought {1} {2} at $200 in {0}"
 
 print(_sentence.format(_country,_quantity,_item))
+
+
+# Python - Escape Characters === we use escape character to print illegal characters in a string
+
+print("i like travellling \"abroad\" during my vacation")
