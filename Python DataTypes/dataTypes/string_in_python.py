@@ -99,3 +99,29 @@ print(_dummy_paragraph.replace("Lorem" , "mwangangi"))
 _hello = "Loren Mwan , gangi"
 
 print(_dummy_paragraph.split(" "))
+
+# Python - String Concatenation
+
+a = "Evans"
+
+b = "mwangangi"
+
+print(a + " "+ b)
+
+# Python - Format - Strings
+
+#  we can combine strings and numbers by using the format() method!
+
+
+
+age = 36
+name = "mwangangi"
+txt = "My {} is John, I am  {}"
+print(txt.format(age,age))
+
+_country = "kenya"
+_item = "phone"
+_quantity = "2"
+_sentence = "i bought {1} {2} at $200 in {0}"
+
+print(_sentence.format(_country,_quantity,_item))
