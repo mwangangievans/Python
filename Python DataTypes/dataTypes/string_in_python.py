@@ -30,12 +30,12 @@ print("second method to get length", string_length.__len__())
 
 # Check String === To check if a certain phrase or character is present in a string, we can use the keyword in.
 
-_marion =  "marion is a medical student"
+_marion = "marion is a medical student"
 print("student" in _marion)
 
 txt = "The best things in life are free!"
 if "free" in txt:
-  print("Yes, 'frees' is present.")
+    print("Yes, 'frees' is present.")
 
 #   Check if NOT  === To check if a certain phrase or character is NOT present in a string, we can use the keyword not in.
 
@@ -58,4 +58,44 @@ print(_muthomi[:5])
 # Slice To the End
 print(_muthomi[3:])
 
-        
+# Python - Modify Strings
+
+print(_muthomi.upper())
+
+# lower case
+
+print(_muthomi.lower())
+
+
+# Remove Whitespace === its the space before and after a string
+
+_evans = "   hello mwangangi  "
+
+print(_evans)
+print(_evans.strip())
+
+# Replace String  === replace() method replaces a string with another
+
+_john = "python is the best...."
+# print(_john)
+
+print(_john.replace("python", "javascript"))
+
+# print(_john)
+
+a = "Hello, World!"
+print(a.replace("H", "J"))
+
+_dummy_paragraph = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+
+
+print(_dummy_paragraph.replace("Lorem" , "mwangangi"))
+
+
+# Split String === The split() method returns a list where the text between the specified separator becomes the list items.
+
+# The split() method splits the string into substrings if it finds instances of the separator:
+
+_hello = "Loren Mwan , gangi"
+
+print(_dummy_paragraph.split(" "))
