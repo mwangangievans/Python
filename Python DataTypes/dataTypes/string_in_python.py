@@ -130,3 +130,59 @@ print(_sentence.format(_country,_quantity,_item))
 # Python - Escape Characters === we use escape character to print illegal characters in a string
 
 print("i like travellling \"abroad\" during my vacation")
+
+# string methods
+# inbuilt methods for strings in python
+# ===================================capitalize()================================================
+
+# capitalize() === this method returns a string where the first letter is capital...
+
+_camp = "welcome to kenya"
+
+# More specifically, make the first character have upper case and the rest lower case.
+print(_camp.capitalize())
+# ====================================================================================== casefold()===================================
+
+# Python String casefold() Method
+
+# makes a string lower case
+
+_lower = "My Land Is KENYA"
+
+print(_lower)
+
+print(_lower.casefold())
+
+# =============================================== center()===================================
+
+_banana = "banana"
+print(_banana.center(20))
+
+
+# ============================ Python String count() Method ==============
+# returns the number of count item appears in an string
+
+_count = "i like mangoes , bananas , apples , bananas"
+
+print(_count.count("apples"))
+
+# ====================================Python String encode() Method
+
+txt = "My name is Ståle"
+
+x = txt.encode()
+
+print(x)
+
+# Python String join() Method
+
+# myTuple = ("John", "Peter", "Vicky")
+_li = ["John", "Peter", "Vicky"]
+
+x = "-".join(_li)
+
+print(x)
+
+
+
+
