@@ -50,6 +50,40 @@ thislist = [100, 50, 65, 82, 23]
 thislist.sort(reverse = True)
 print(thislist)
 
+def myfunc(n):
+  return abs(n - 50)
+
+thislist = [100, 50, 65, 82, 23]
+thislist.sort(key = myfunc)
+print(thislist)
+
+# sort key sensitive
+thislist = ["banana", "Orange", "Kiwi", "cherry","ann"]
+thislist.sort(key = str.lower)
+print(thislist)
+
+
+# copying a list
+thislist = ["apple", "banana", "cherry"]
+mylist = thislist.copy()
+print(mylist)
+print(thislist)
+
+list1 = ["a", "b" , "c"]
+list2 = [1, 2, 3]
+
+for x in list2:
+  list1.append(x)
+
+print(list1)
+
+# extend method adds an item at the end of the list...
+
+li1 = ["ken","monica","john"]
+li2 = ["1","2","3","4"]
+li1.extend(li2)
+print((li1))
+
 
 
 
